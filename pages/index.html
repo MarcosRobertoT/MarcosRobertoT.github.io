@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    <title>Marcos Roberto</title>
+</head>
+<body>
+    <header>
+        <h1>Marcos Roberto</h1>
+        <nav class="linkCabecario">
+            <a href="#top">Home</a>
+            <details class="redes">
+                <summary>Redes Sociais</summary>
+                <ul>
+                    <li><a href="https://www.instagram.com/marc0s.teixeira?igsh=MXM4a2lzMm52ZXlweA==" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/marcos-roberto-teixeira-da-cruz-27bb8a284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+                </ul>
+            </details>
+            <a href="#tabelaPraQ" onclick="tabelaVisivel()">Tabela</a>
+        </nav>
+        <button onclick="contato()">Fale comigo</button>
+    </header>
+    <div class="container">
+        <div class="sobre">
+            <h1>Sobre Mim</h1>
+            <p>Eu sou um estudante de Ciência da Computação que está matriculado na Unip (Universidade Paulista) de Jaguaré. Atualmente tenho 18 anos e moro em Embu das Artes - SP, onde fiz um curso técnico em desenvolvimento de sistemas. </p>
+            <p>Gosto de jogar bola com os meus amigos nos finais de semana, mas nem sempre acabamos indo porque são tudo preguiçosos. E eu realmente não gosto de CSS, mas fazer o que, né.</p>
+        </div>
+        <img src="../img/eu.jpg" alt="uma foto de Marcos Roberto">
+    </div>
+    <div id="tabelaPraQ">
+        <table id="tabela" onclick="tabelaInvisivel()">
+            <caption>
+                Clique na tabela para esconde-la. E para ela aparecer novamente, bastar clicar na tabela da navbar
+            </caption>
+            <thead>
+                <tr>
+                    <th>Coisa</th>
+                    <th>Apreciação</th>
+                    <th>Útil?</th>
+                    <th>Por Que?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>CSS</th>
+                    <td>10%</td>
+                    <td>Sim</td>
+                    <td>Sem ele não tem estilização</td>
+                </tr>
+                <tr>
+                    <th>HTML</th>
+                    <td>60%</td>
+                    <td>Sim</td>
+                    <td>Sem ele não tem o esqueleto do site(entre aspas)</td>
+                </tr>
+                <tr>
+                    <th>Javascript</th>
+                    <td>80%</td>
+                    <td>Sim</td>
+                    <td>Responsividade e muito mais</td>
+                </tr>
+                <tr>
+                    <th>Maçã</th>
+                    <td>100%</td>
+                    <td>Sim</td>
+                    <td>É gostosa</td>
+                </tr>
+                <tr>
+                    <th>Futebol</th>
+                    <td>100%</td>
+                    <td>Depende</td>
+                    <td>É uma forma de exercício físico, mas não existe só futebol</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
